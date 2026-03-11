@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-cocoa-950: #1a0f08;
+  --color-cocoa-900: #2d1b0d;
+  --color-cocoa-800: #4a3728;
+  --color-cocoa-700: #6b4e3d;
+  --color-cocoa-600: #8b5e3c;
+  --color-cocoa-500: #a67c52;
+  --color-cocoa-400: #c2a07e;
+  --color-cocoa-300: #dec4aa;
+  --color-cocoa-200: #ebd9c8;
+  --color-cocoa-100: #f5ece3;
+  --color-cocoa-50: #fdfaf6;
+}
+
+@layer base {
+  body {
+    @apply bg-cocoa-50 text-cocoa-900 font-sans;
+  }
+}
+
+.irms-grid {
+  background-image: radial-gradient(circle at 1px 1px, #dec4aa 1px, transparent 0);
+  background-size: 24px 24px;
+}

@@ -1,0 +1,5 @@
+{
+  "name": "CocoaTrace IRMS",
+  "description": "Advanced cocoa origin tracking and tracing system utilizing Isotope Ratio Mass Spectrometry (IRMS) fingerprints.",
+  "requestFramePermissions": []
+}
